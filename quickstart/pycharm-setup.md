@@ -4,7 +4,7 @@
 
 Make sure you have forked the [MLX Repository](https://github.com/machine-learning-exchange/mlx)
 
-###Linking Github Account to Pycharm
+###Link Github Account to Pycharm
 
 Go To File > Preferences (Settings for Windows Users) > Version Control > Github
 
@@ -16,7 +16,14 @@ Otherwise, click "Sign in with Github" and follow shown instructions.
 
 ##Setup Venv
 
-Go To File > Preferences (Settings for Windows Users) > 
+    TODO
 
 ##Set WSL as terminal.
 
+Go To File > Preferences (Settings for Windows Users) > Tools > Terminal 
+
+Under Shell Path: select bash.exe in its install location.
+
+For example: 
+
+    C:/<YOUR NAME HERE>/System32/bash.exe
