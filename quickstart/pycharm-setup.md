@@ -14,11 +14,27 @@ If you have a Github SSH token, click "Login With Token".
 
 Otherwise, click "Sign in with Github" and follow shown instructions.
 
-##Setup Venv
+##Setup Virtual Environment Within Pycharm
 
-    TODO
+In order to Setup a Virtual Environment, you must first go to Settings 
+
+Then click the dropdown for Project: <NAME OF PROJECT> 
+
+Click on Python Interpreter and click the gear icon next to the dropdown at the top of the window.
+
+Click add > Virtualenv Environment
+
+Specify a location where the virtual enviroment will be stored.
+
+Select the python.exe within your python installation location as base interpreter.
 
 ##Set WSL as terminal.
+
+If developing on Windows, you may find it necessary to use Windows Subsystem for Linux. Also known as WSL
+
+To install WSL, follow [these instructions](https://docs.microsoft.com/en-us/windows/wsl/install)
+
+After WSL is installed on your system, in order to change the terminal within PyCharm to WSL, you must:
 
 Go To File > Preferences (Settings for Windows Users) > Tools > Terminal 
 
